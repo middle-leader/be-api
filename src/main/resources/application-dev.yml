@@ -1,0 +1,20 @@
+spring:
+  config.activate.on-profile: dev
+
+  datasource:
+    url: jdbc:mysql://172.16.0.9:13306/middle_leader
+    username: admin
+    password: Admin123!@#
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+
+logging:
+  level:
+    root: debug
+
+#spring.datasource.username=godtoever
+#spring.datasource.password=godtoever123!@#

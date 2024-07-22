@@ -1,0 +1,17 @@
+spring:
+  config.activate.on-profile: real
+
+  datasource:
+    url: jdbc:mysql://db-odshs.vpc-cdb.ntruss.com:13306/middleleader
+    username: override
+    password: override
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    generate-ddl: false
+
+logging:
+  level:
+    root: error
